@@ -30,7 +30,7 @@
         <input id="price" class="mb-2 w-50 form-control" type="text" placeholder="Price">
         <input id="descr" class="mb-2 w-50 form-control" type="text" placeholder="Description">
         <input id="image" class="mb-2 w-50 form-control" type="text" placeholder="Image URL">
-        <button id="btn-add" class="btn btn-dark w-50">ADD PRODUCT</button>
+        <button id="btn-add" class="btn btn-dark w-50">Add Product</button>
     </div>
 
 
@@ -38,23 +38,39 @@
     <!-- Content -->
     <div class="d-flex flex-wrap justify-content-center" id="products-list"></div>
     <!-- Content end -->
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h2>Edit Product</h2>
+            <input id="edit-title" class="mb-2 w-100 form-control" type="text" placeholder="Title">
+            <input id="edit-price" class="mb-2 w-100 form-control" type="text" placeholder="Price">
+            <input id="edit-descr" class="mb-2 w-100 form-control" type="text" placeholder="Description">
+            <input id="edit-image" class="mb-2 w-100 form-control" type="text" placeholder="Image URL">
+            <button id="btn-save-edit" class="btn btn-dark w-100">Save changes</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal end -->
+
+
+
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
 
-</html>
-
-
-
-
-
-
-
-
-
-<body>
-    
-</body>
 </html>
